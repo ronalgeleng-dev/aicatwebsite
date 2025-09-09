@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI CAT (AICAT) – The Meme Coin Powered by AI</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+        .hero {
+            background: url('https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/26962f71-6df6-4ee9-8fc5-151f5b8a4b97.png') no-repeat center center/cover;
+            position: relative;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0,0,0,0.5);
+            z-index: -1;
+        }
+        .cta-button {
+            background: linear-gradient(45deg, #ff6b6b, #ee5a24);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            border: none;
+            border-radius: 50px;
+            padding: 15px 30px;
+            font-size: 18px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        .cta-button:hover {
+            transform: scale(1.1);
+            box-shadow: 0 10px 20px rgba(255, 107, 107, 0.5);
+        }
+        .about-section {
+            background: rgba(255,255,255,0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            margin: 50px auto;
+            padding: 30px;
+            max-width: 800px;
+        }
+        .floating-cat {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            width: 100px;
+            height: 100px;
+            animation: float 3s ease-in-out infinite;
+            z-index: -2;
+        }
+        @keyframes float {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-20px); }
+        }
+    </style>
+</head>
+<body>
+    <section class="hero bg-cover bg-center text-center py-20 px-4">
+        <div>
+            <h1 class="text-5xl md:text-7xl font-bold mb-6">Meowvolution is Coming – The First AI-Powered Meme Coin</h1>
+            <p class="text-xl md:text-2xl mb-10 max-w-3xl mx-auto">
+                AI CAT (AICAT) combines AI technology, meme culture, and the power of internet cats to create the next viral movement in crypto.
+            </p>
+            <button class="cta-button" onclick="window.open('https://example.com/buy-aicat', '_blank')">Buy $AICAT | Join the Community</button>
+        </div>
+        <div class="floating-cat">
+            <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/bf53f0e5-780f-4e52-934a-d3b2f7436103.png" alt="Cyberpunk cat with glowing blue eyes, metallic robotic ears, neon collar, and holographic patterns against a dark futuristic cityscape" onerror="this.style.display='none';" />
+        </div>
+    </section>
+
+    <section class="about-section">
+        <h2 class="text-4xl font-bold mb-6 text-center">What is AI CAT (AICAT)?</h2>
+        <p class="text-lg leading-relaxed">
+            AI CAT is not just another meme coin. It’s a community-driven project that merges Artificial Intelligence, meme creation, and cat culture. With AICAT, anyone can generate AI-powered memes, mint them as NFTs, and be part of the Meowvolution.
+        </p>
+        <div class="mt-8 flex justify-center">
+            <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/0d15eac2-13cf-452f-b33d-ea3c2e79219c.png" alt="Group of colorful pixelated cats in playful poses such as high-five, dancing, and cheering, surrounding a sparkling diamond trophy on a arcade-style background with fireworks and hearts" class="rounded-lg shadow-lg" onerror="this.style.display='none';" />
+        </div>
+    </section>
+
+    <script>
+        // Simple JavaScript for interactive elements
+        document.addEventListener('DOMContentLoaded', function() {
+            // Add a simple alert on button hover for engagement
+            const button = document.querySelector('.cta-button');
+            button.addEventListener('mouseenter', function() {
+                this.innerText = 'Ready to Meow-volve?';
+            });
+            button.addEventListener('mouseleave', function() {
+                this.innerText = 'Buy $AICAT | Join the Community';
+            });
+        });
+
+        // Background animation for extra flair
+        function animateBackground() {
+            document.body.style.animation = 'gradient 10s ease infinite';
+            document.body.style.animation = 'gradient 10s ease infinite';
+            document.styleSheets[1].insertRule('@keyframes gradient { 0% { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); } 50% { background: linear-gradient(135deg, #764ba2 0%, #667eea 100%); } 100% { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); } }');
+        }
+        animateBackground();
+    </script>
+</body>
+</html>
+</content>
+</create_file>
